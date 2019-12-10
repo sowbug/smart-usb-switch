@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -54,7 +54,7 @@ Wire Wire Line
 Wire Wire Line
 	5700 2100 5700 2400
 $Comp
-L Regulator_Linear:TLV75533PDBV U2
+L smart-usb-switch-rescue:TLV75533PDBV-Regulator_Linear U2
 U 1 1 5DE30043
 P 4250 2900
 F 0 "U2" H 4250 3242 50  0000 C CNN
