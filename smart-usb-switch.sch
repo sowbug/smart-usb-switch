@@ -1,0 +1,276 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L RF_Module:ESP-12F U1
+U 1 1 5DE2CF3E
+P 5700 3200
+F 0 "U1" H 5700 4181 50  0000 C CNN
+F 1 "ESP-12F" H 5700 4090 50  0000 C CNN
+F 2 "RF_Module:ESP-12E" H 5700 3200 50  0001 C CNN
+F 3 "http://wiki.ai-thinker.com/_media/esp8266/esp8266_series_modules_user_manual_v1.1.pdf" H 5350 3300 50  0001 C CNN
+	1    5700 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_A J1
+U 1 1 5DE2D593
+P 3250 2850
+F 0 "J1" H 3307 3317 50  0000 C CNN
+F 1 "USB_A" H 3307 3226 50  0000 C CNN
+F 2 "Connector_USB:USB_A_CNCTech_1001-011-01101_Horizontal" H 3400 2800 50  0001 C CNN
+F 3 " ~" H 3400 2800 50  0001 C CNN
+	1    3250 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 4750 4250 4750
+Wire Wire Line
+	5700 4750 5700 3900
+Wire Wire Line
+	3550 2650 3850 2650
+Wire Wire Line
+	3850 2650 3850 2800
+Wire Wire Line
+	3850 2800 3950 2800
+Wire Wire Line
+	4550 2800 4850 2800
+Wire Wire Line
+	4850 2800 4850 2600
+Wire Wire Line
+	4850 2100 5700 2100
+Wire Wire Line
+	5700 2100 5700 2400
+$Comp
+L Regulator_Linear:TLV75533PDBV U2
+U 1 1 5DE30043
+P 4250 2900
+F 0 "U2" H 4250 3242 50  0000 C CNN
+F 1 "TLV75533PDBV" H 4250 3151 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 4250 3225 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/tlv755p.pdf" H 4250 2950 50  0001 C CNN
+	1    4250 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 2900 3850 2900
+Wire Wire Line
+	3850 2900 3850 2800
+Connection ~ 3850 2800
+$Comp
+L Connector:USB_A J2
+U 1 1 5DE34A4B
+P 7450 2800
+F 0 "J2" H 7220 2789 50  0000 R CNN
+F 1 "USB_A" H 7220 2698 50  0000 R CNN
+F 2 "Connector_USB:USB_A_Stewart_SS-52100-001_Horizontal" H 7600 2750 50  0001 C CNN
+F 3 " ~" H 7600 2750 50  0001 C CNN
+	1    7450 2800
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 3200 7450 3300
+Connection ~ 5700 4750
+Wire Wire Line
+	6800 4150 6800 4750
+Connection ~ 6800 4750
+Wire Wire Line
+	6800 4750 6500 4750
+Wire Wire Line
+	6800 4750 7550 4750
+$Comp
+L power:GND #PWR0101
+U 1 1 5DE35A33
+P 4250 4750
+F 0 "#PWR0101" H 4250 4500 50  0001 C CNN
+F 1 "GND" H 4255 4577 50  0000 C CNN
+F 2 "" H 4250 4750 50  0001 C CNN
+F 3 "" H 4250 4750 50  0001 C CNN
+	1    4250 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0102
+U 1 1 5DE36F6A
+P 5700 2100
+F 0 "#PWR0102" H 5700 1950 50  0001 C CNN
+F 1 "+3.3V" H 5715 2273 50  0000 C CNN
+F 2 "" H 5700 2100 50  0001 C CNN
+F 3 "" H 5700 2100 50  0001 C CNN
+	1    5700 2100
+	1    0    0    -1  
+$EndComp
+Connection ~ 5700 2100
+Wire Wire Line
+	7150 2600 7150 1850
+Wire Wire Line
+	7150 1850 3850 1850
+Wire Wire Line
+	3850 1850 3850 2650
+Connection ~ 3850 2650
+Wire Wire Line
+	6800 4150 7000 4150
+$Comp
+L Connector_Generic:Conn_01x04 J3
+U 1 1 5DE4423D
+P 8050 3500
+F 0 "J3" H 8130 3492 50  0000 L CNN
+F 1 "Conn_01x04" H 8130 3401 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 8050 3500 50  0001 C CNN
+F 3 "~" H 8050 3500 50  0001 C CNN
+	1    8050 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 3400 6950 2700
+Wire Wire Line
+	6950 2700 6300 2700
+Wire Wire Line
+	6300 2900 6900 2900
+Wire Wire Line
+	6700 3600 6700 2100
+Wire Wire Line
+	6700 2100 6500 2100
+Wire Wire Line
+	7850 3400 7550 3400
+Wire Wire Line
+	7550 3400 7550 3950
+Wire Wire Line
+	7850 3500 7450 3500
+Wire Wire Line
+	7450 3500 7450 3600
+Wire Wire Line
+	7450 3600 6700 3600
+Wire Wire Line
+	7850 3600 7600 3600
+Wire Wire Line
+	7600 3600 7600 3700
+Wire Wire Line
+	7600 3700 6900 3700
+Wire Wire Line
+	6900 2900 6900 3700
+Wire Wire Line
+	6950 3400 7400 3400
+Wire Wire Line
+	7400 3400 7400 3800
+Wire Wire Line
+	7400 3800 7750 3800
+Wire Wire Line
+	7750 3800 7750 3700
+Wire Wire Line
+	7750 3700 7850 3700
+$Comp
+L Connector_Generic:Conn_01x02 J4
+U 1 1 5DE5CC19
+P 8050 3950
+F 0 "J4" H 8130 3942 50  0000 L CNN
+F 1 "Conn_01x02" H 8130 3851 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8050 3950 50  0001 C CNN
+F 3 "~" H 8050 3950 50  0001 C CNN
+	1    8050 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 2600 6500 2600
+Wire Wire Line
+	6650 2600 6650 4250
+Wire Wire Line
+	7850 4050 7650 4050
+Wire Wire Line
+	6700 3950 6550 3950
+Wire Wire Line
+	6650 4250 7650 4250
+Wire Wire Line
+	7650 4250 7650 4050
+Wire Wire Line
+	7550 3950 7850 3950
+Connection ~ 7550 3950
+Wire Wire Line
+	7550 3950 7550 4750
+Wire Wire Line
+	4250 3200 4250 4750
+Connection ~ 4250 4750
+Wire Wire Line
+	6550 3950 6550 3400
+Wire Wire Line
+	6550 3400 6300 3400
+$Comp
+L Transistor_FET:2N7002E Q1
+U 1 1 5DE386B7
+P 6900 3950
+F 0 "Q1" H 7104 3996 50  0000 L CNN
+F 1 "2N7002E" H 7104 3905 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7100 3875 50  0001 L CIN
+F 3 "http://www.diodes.com/assets/Datasheets/ds30376.pdf" H 6900 3950 50  0001 L CNN
+	1    6900 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 2800 5100 2800
+Connection ~ 4850 2800
+Wire Wire Line
+	5100 2600 4850 2600
+Connection ~ 4850 2600
+Wire Wire Line
+	4850 2600 4850 2100
+Wire Wire Line
+	6300 3500 6500 3500
+Wire Wire Line
+	6500 3500 6500 4750
+Connection ~ 6500 4750
+Wire Wire Line
+	6500 4750 5700 4750
+$Comp
+L Device:R R1
+U 1 1 5DE8C55A
+P 6500 2350
+F 0 "R1" H 6570 2396 50  0000 L CNN
+F 1 "R10K" H 6570 2305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6430 2350 50  0001 C CNN
+F 3 "~" H 6500 2350 50  0001 C CNN
+	1    6500 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 2600 6500 2500
+Connection ~ 6500 2600
+Wire Wire Line
+	6500 2600 6650 2600
+Wire Wire Line
+	6500 2200 6500 2100
+Connection ~ 6500 2100
+Wire Wire Line
+	6500 2100 5700 2100
+$Comp
+L power:VBUS #PWR0103
+U 1 1 5DE95E66
+P 3850 1850
+F 0 "#PWR0103" H 3850 1700 50  0001 C CNN
+F 1 "VBUS" H 3865 2023 50  0000 C CNN
+F 2 "" H 3850 1850 50  0001 C CNN
+F 3 "" H 3850 1850 50  0001 C CNN
+	1    3850 1850
+	1    0    0    -1  
+$EndComp
+Connection ~ 3850 1850
+Wire Wire Line
+	4250 4750 5700 4750
+Wire Wire Line
+	3250 3250 3250 4750
+Wire Wire Line
+	7000 3750 7000 3300
+Wire Wire Line
+	7000 3300 7450 3300
+$EndSCHEMATC
