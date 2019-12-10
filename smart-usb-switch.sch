@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -87,7 +87,7 @@ Wire Wire Line
 	6800 4150 6800 4750
 Connection ~ 6800 4750
 Wire Wire Line
-	6800 4750 6500 4750
+	6800 4750 6400 4750
 Wire Wire Line
 	6800 4750 7550 4750
 $Comp
@@ -134,13 +134,11 @@ F 3 "~" H 8050 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6950 3400 6950 2700
+	6900 3700 6900 2700
 Wire Wire Line
-	6950 2700 6300 2700
+	6900 2700 6300 2700
 Wire Wire Line
-	6300 2900 6900 2900
-Wire Wire Line
-	6700 3600 6700 2100
+	6300 2900 6800 2900
 Wire Wire Line
 	6700 2100 6500 2100
 Wire Wire Line
@@ -148,29 +146,7 @@ Wire Wire Line
 Wire Wire Line
 	7550 3400 7550 3950
 Wire Wire Line
-	7850 3500 7450 3500
-Wire Wire Line
-	7450 3500 7450 3600
-Wire Wire Line
-	7450 3600 6700 3600
-Wire Wire Line
-	7850 3600 7600 3600
-Wire Wire Line
-	7600 3600 7600 3700
-Wire Wire Line
-	7600 3700 6900 3700
-Wire Wire Line
-	6900 2900 6900 3700
-Wire Wire Line
-	6950 3400 7400 3400
-Wire Wire Line
-	7400 3400 7400 3800
-Wire Wire Line
-	7400 3800 7750 3800
-Wire Wire Line
-	7750 3800 7750 3700
-Wire Wire Line
-	7750 3700 7850 3700
+	6800 2900 6800 3600
 $Comp
 L Connector_Generic:Conn_01x02 J4
 U 1 1 5DE5CC19
@@ -185,13 +161,13 @@ $EndComp
 Wire Wire Line
 	6300 2600 6500 2600
 Wire Wire Line
-	6650 2600 6650 4250
+	6600 2600 6600 4250
 Wire Wire Line
 	7850 4050 7650 4050
 Wire Wire Line
-	6700 3950 6550 3950
+	6700 3950 6500 3950
 Wire Wire Line
-	6650 4250 7650 4250
+	6600 4250 7650 4250
 Wire Wire Line
 	7650 4250 7650 4050
 Wire Wire Line
@@ -202,10 +178,6 @@ Wire Wire Line
 Wire Wire Line
 	4250 3200 4250 4750
 Connection ~ 4250 4750
-Wire Wire Line
-	6550 3950 6550 3400
-Wire Wire Line
-	6550 3400 6300 3400
 $Comp
 L Transistor_FET:2N7002E Q1
 U 1 1 5DE386B7
@@ -226,12 +198,12 @@ Connection ~ 4850 2600
 Wire Wire Line
 	4850 2600 4850 2100
 Wire Wire Line
-	6300 3500 6500 3500
+	6300 3500 6400 3500
 Wire Wire Line
-	6500 3500 6500 4750
-Connection ~ 6500 4750
+	6400 3500 6400 4750
+Connection ~ 6400 4750
 Wire Wire Line
-	6500 4750 5700 4750
+	6400 4750 5700 4750
 $Comp
 L Device:R R1
 U 1 1 5DE8C55A
@@ -247,7 +219,7 @@ Wire Wire Line
 	6500 2600 6500 2500
 Connection ~ 6500 2600
 Wire Wire Line
-	6500 2600 6650 2600
+	6500 2600 6600 2600
 Wire Wire Line
 	6500 2200 6500 2100
 Connection ~ 6500 2100
@@ -273,4 +245,16 @@ Wire Wire Line
 	7000 3750 7000 3300
 Wire Wire Line
 	7000 3300 7450 3300
+Wire Wire Line
+	6500 3000 6300 3000
+Wire Wire Line
+	6500 3000 6500 3950
+Wire Wire Line
+	6700 3500 6700 2100
+Wire Wire Line
+	6700 3500 7850 3500
+Wire Wire Line
+	6800 3600 7850 3600
+Wire Wire Line
+	6900 3700 7850 3700
 $EndSCHEMATC
