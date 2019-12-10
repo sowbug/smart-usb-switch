@@ -5,7 +5,7 @@ N-channel MOSFET
 https://www.mouser.com/ProductDetail/621-DMN6140L-13
 
 USB Type-A plug connector, SMT
-https://www.mouser.com/ProductDetail/806-KUSBXSMT2AP5SB
+https://www.mouser.com/ProductDetail/48037-2200
 
 USB Type-A socket connector, through-hole
 https://www.mouser.com/ProductDetail/530-SS-52100-001
