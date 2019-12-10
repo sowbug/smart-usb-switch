@@ -1,0 +1,14 @@
+LDO voltage regulator
+https://www.mouser.com/ProductDetail/595-TLV75533PDBVR
+
+N-channel MOSFET
+https://www.mouser.com/ProductDetail/621-DMN6140L-13
+
+USB Type-A plug connector, SMT
+https://www.mouser.com/ProductDetail/806-KUSBXSMT2AP5SB
+
+USB Type-A socket connector, through-hole
+https://www.mouser.com/ProductDetail/530-SS-52100-001
+
+10K 0805 resistor for reset pull-up
+https://www.mouser.com/ProductDetail/279-CPF0805F10KC1
