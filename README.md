@@ -2,7 +2,7 @@ smart-usb-switch
 ===
 
 An inline USB type-A power switch that's controlled by an ESP8266
-(ESP-12F) on GPIO14. You can load this device with any firmware you
+(ESP-12F) on GPIO4. You can load this device with any firmware you
 want, including for example [ESPHome](https://esphome.io).
 
 Program with a serial adapter that's set to 3.3v logic
