@@ -52,7 +52,7 @@ Wire Wire Line
 Wire Wire Line
 	5700 2100 5700 2400
 $Comp
-L smart-usb-switch-rescue:TLV75533PDBV-Regulator_Linear U2
+L Regulator_Linear:TLV75533PDBV U2
 U 1 1 5DE30043
 P 4250 2900
 F 0 "U2" H 4250 3242 50  0000 C CNN
@@ -146,13 +146,13 @@ Wire Wire Line
 Wire Wire Line
 	4250 3200 4250 3400
 $Comp
-L Transistor_FET:2N7002E Q1
+L Transistor_FET:2N7002 Q1
 U 1 1 5DE386B7
 P 7250 3000
 F 0 "Q1" H 7454 3046 50  0000 L CNN
-F 1 "2N7002E" H 7454 2955 50  0000 L CNN
+F 1 "DMN6140L-13" H 7454 2955 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 7450 2925 50  0001 L CIN
-F 3 "http://www.diodes.com/assets/Datasheets/ds30376.pdf" H 7250 3000 50  0001 L CNN
+F 3 "https://www.mouser.com/datasheet/2/115/DMN6140L-477770.pdfx" H 7250 3000 50  0001 L CNN
 	1    7250 3000
 	1    0    0    -1  
 $EndComp
