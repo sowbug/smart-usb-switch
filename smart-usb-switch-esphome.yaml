@@ -1,0 +1,35 @@
+esphome:
+  name: smart_usb_1
+  platform: ESP8266
+  board: esp12e
+
+light:
+  - platform: monochromatic
+    id: light_1
+    name: "Smart USB Light"
+    output: output_component1
+
+output:
+  - platform: esp8266_pwm
+    id: output_component1
+    pin: GPIO14
+
+# all the standard stuff is below this
+
+api:
+  password: hunter2
+
+logger:
+
+wifi:
+  networks:
+  - ssid: "home"
+    password: "1234567890"
+  - ssid: "work"
+    password: "abcdefghij"
+  ap:
+    ssid: "emergency-esphome-ap"
+    password: hunter2
+
+ota:
+  password: hunter2
