@@ -14,6 +14,20 @@ output:
     id: output_component1
     pin: GPIO14
 
+binary_sensor:
+  - platform: gpio
+    name: "Button 1"
+    pin:
+      number: GPIO12
+      mode: INPUT_PULLUP
+      inverted: True
+  - platform: gpio
+    name: "Button 2"
+    pin:
+      number: GPIO13
+      mode: INPUT_PULLUP
+      inverted: True
+
 # all the standard stuff is below this
 
 api:
