@@ -32,7 +32,7 @@ P 3250 2850
 F 0 "J1" H 3307 3317 50  0000 C CNN
 F 1 "USB_A" H 3307 3226 50  0000 C CNN
 F 2 "Connector_USB:USB_A_CNCTech_1001-011-01101_Horizontal" H 3400 2800 50  0001 C CNN
-F 3 " ~" H 3400 2800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1811131821_Jing-Extension-of-the-Electronic-Co-C46394_C46394.pdf" H 3400 2800 50  0001 C CNN
 F 4 "C46394" H 3250 2850 50  0001 C CNN "LCSC"
 	1    3250 2850
 	1    0    0    -1  
@@ -54,14 +54,14 @@ Wire Wire Line
 Wire Wire Line
 	5700 2100 5700 2400
 $Comp
-L smart-usb-switch-rescue:TLV75533PDBV-Regulator_Linear U2
+L Regulator_Linear:MIC5219-3.3YM5 U2
 U 1 1 5DE30043
 P 4250 2900
 F 0 "U2" H 4250 3242 50  0000 C CNN
-F 1 "TLV75533PDBV" H 4250 3151 50  0000 C CNN
+F 1 "MIC5219-3.3YM5-TR" H 4250 3151 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 4250 3225 50  0001 C CIN
-F 3 "http://www.ti.com/lit/ds/symlink/tlv755p.pdf" H 4250 2950 50  0001 C CNN
-F 4 "C404027" H 4250 2900 50  0001 C CNN "LCSC"
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5219-500mA-Peak-Output-LDO-Regulator-DS20006021A.pdf" H 4250 2950 50  0001 C CNN
+F 4 "C29613" H 4250 2900 50  0001 C CNN "LCSC"
 	1    4250 2900
 	1    0    0    -1  
 $EndComp
@@ -77,7 +77,7 @@ P 7600 2050
 F 0 "J2" H 7370 2039 50  0000 R CNN
 F 1 "USB_A" H 7370 1948 50  0000 R CNN
 F 2 "Connector_USB:USB_A_Stewart_SS-52100-001_Horizontal" H 7750 2000 50  0001 C CNN
-F 3 " ~" H 7750 2000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1811131820_TE-Connectivity-292303-1_C86461.pdf" H 7750 2000 50  0001 C CNN
 F 4 "C86461" H 7600 2050 50  0001 C CNN "LCSC"
 	1    7600 2050
 	-1   0    0    -1  
@@ -279,7 +279,7 @@ P 3850 3900
 F 0 "SW1" H 3850 4185 50  0000 C CNN
 F 1 "SW_Push" H 3850 4094 50  0000 C CNN
 F 2 "Button_Switch_SMD:SW_SPST_SKQG_WithStem" H 3850 4100 50  0001 C CNN
-F 3 "" H 3850 4100 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1810291657_XKB-Enterprise-TS-1187A-C-D-B_C318888.pdf" H 3850 4100 50  0001 C CNN
 F 4 "C318888" H 3850 3900 50  0001 C CNN "LCSC"
 	1    3850 3900
 	1    0    0    -1  
@@ -291,7 +291,7 @@ P 3850 4350
 F 0 "SW2" H 3850 4635 50  0000 C CNN
 F 1 "SW_Push" H 3850 4544 50  0000 C CNN
 F 2 "Button_Switch_SMD:SW_SPST_SKQG_WithStem" H 3850 4550 50  0001 C CNN
-F 3 "" H 3850 4550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1810291657_XKB-Enterprise-TS-1187A-C-D-B_C318888.pdf" H 3850 4550 50  0001 C CNN
 F 4 "C318888" H 3850 4350 50  0001 C CNN "LCSC"
 	1    3850 4350
 	1    0    0    -1  
