@@ -1,3 +1,7 @@
 *.bak
 *-bak
 fp-info-cache
+sym-lib-table
+smart-usb-switch.xml
+smart-usb-switch-rescue.lib
+smart-usb-switch-rescue.dcm
