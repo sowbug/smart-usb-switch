@@ -21,6 +21,7 @@ F 0 "U1" H 5700 4181 50  0000 C CNN
 F 1 "ESP-12F" H 5700 4090 50  0000 C CNN
 F 2 "RF_Module:ESP-12E" H 5700 3200 50  0001 C CNN
 F 3 "http://wiki.ai-thinker.com/_media/esp8266/esp8266_series_modules_user_manual_v1.1.pdf" H 5350 3300 50  0001 C CNN
+F 4 "C82891" H 5700 3200 50  0001 C CNN "LCSC"
 	1    5700 3200
 	1    0    0    -1  
 $EndComp
@@ -32,6 +33,7 @@ F 0 "J1" H 3307 3317 50  0000 C CNN
 F 1 "USB_A" H 3307 3226 50  0000 C CNN
 F 2 "Connector_USB:USB_A_CNCTech_1001-011-01101_Horizontal" H 3400 2800 50  0001 C CNN
 F 3 " ~" H 3400 2800 50  0001 C CNN
+F 4 "C46394" H 3250 2850 50  0001 C CNN "LCSC"
 	1    3250 2850
 	1    0    0    -1  
 $EndComp
@@ -76,6 +78,7 @@ F 0 "J2" H 7370 2039 50  0000 R CNN
 F 1 "USB_A" H 7370 1948 50  0000 R CNN
 F 2 "Connector_USB:USB_A_Stewart_SS-52100-001_Horizontal" H 7750 2000 50  0001 C CNN
 F 3 " ~" H 7750 2000 50  0001 C CNN
+F 4 "C86461" H 7600 2050 50  0001 C CNN "LCSC"
 	1    7600 2050
 	-1   0    0    -1  
 $EndComp

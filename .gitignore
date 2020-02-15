@@ -5,3 +5,7 @@ sym-lib-table
 smart-usb-switch.xml
 smart-usb-switch-rescue.dcm
 smart-usb-switch-rescue.lib
+*.dsn
+*.zip
+*.ses
+*~
