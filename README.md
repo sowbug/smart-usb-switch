@@ -25,8 +25,4 @@ to RXD). Then build the ESPHome image and upload with
 
 ## Bill of Materials
 
-* [LDO voltage regulator, SOT-23-5](https://www.mouser.com/ProductDetail/595-TLV75533PDBVR)
-* [N-channel MOSFET, SOT-23-3](https://www.mouser.com/ProductDetail/621-DMN6140L-13)
-* [USB Type-A plug connector, SMT](https://www.mouser.com/ProductDetail/48037-2200)
-* [USB Type-A socket connector, through-hole](https://www.mouser.com/ProductDetail/530-SS-52100-001)
-* [10K resistor for reset pull-up, 0805](https://www.mouser.com/ProductDetail/279-CPF0805F10KC1)
+See `smart-usb-switch.csv`.
